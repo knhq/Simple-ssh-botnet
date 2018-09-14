@@ -3,13 +3,13 @@
 import optparse
 from pexpect import pxssh
 
-print '''
+print ('''
 >-------------------<
 This is a simple ssh 
 bot control unit
 >-------------------<
 Coding by Leeon123
->-------------------<'''
+>-------------------<''')
 
 class Client:
 
@@ -45,6 +45,6 @@ def addClient(host, user, password):
 
 order = input("Command:")
 botNet = []
-addClient('host', 'username', 'passwd')
+addClient('host', 'username', 'passwd') # Inter your ssh server ip, username and password.
 addClient('host','username','passwd')
 botnetCommand(order)
