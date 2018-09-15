@@ -10,7 +10,7 @@ Sometimes it will occur some bugs like:
 I can't solve it now.   Just run more times to continue.
 # Usage :
 
-    python2 botnet.py
+    python3 botnet.py
 # Add bot:
 
     Line 48:
