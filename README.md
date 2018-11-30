@@ -7,7 +7,7 @@ Sometimes it will occur some bugs like:
 
         AttributeError: 'NoneType' object has no attribute 'sendline'
         
-I can't solve it now.   Just run more times to continue.
+I can't solve it now.   Just run it more times to continue.
 # Usage :
 
     python3 botnet.py
