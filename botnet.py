@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import optparse
-from pexpect import pxssh
+
 
 print ('''
 >-------------------<
@@ -45,6 +45,6 @@ def addClient(host, user, password):
 
 order = input("Command:")
 botNet = []
-addClient('host', 'username', 'passwd') # Inter your ssh server ip, username and password.
+addClient('144.217.170.115', 'hallow, 'root') # Inter your ssh server ip, username and password.
 addClient('host','username','passwd')
 botnetCommand(order)
